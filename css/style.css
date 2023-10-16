@@ -29,11 +29,6 @@ h1 {
   font-family: Comfortaa;
 }
 
-ul {
-  text-decoration: none;
-  list-style: none;
-}
-
 button {
   cursor: pointer;
   color: #f9faf8;
@@ -49,7 +44,7 @@ button {
   background: #1f2937;
 }
 
-.logo-txt {
+.title-txt {
   font-size: 48px;
   font-family: Comfortaa, Courier, Cambia;
   font-weight: bold;
@@ -60,7 +55,7 @@ button {
   margin-bottom: 10px;
 }
 
-#logo-txt {
+#title-txt {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -73,18 +68,6 @@ button {
   margin-bottom: 40px;
 }
 
-li {
-  color: #e5e7eb;
-  font-style: 18px;
-}
-
-.link-list {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  padding-right: 64px;
-}
-
 .header {
   display: flex;
   flex-direction: row;
@@ -95,44 +78,6 @@ li {
   display: flex;
   gap: 24px;
   justify-content: center;
-}
-
-.htxt-only {
-  margin-left: 64px;
-  /* width: 400px; */
-}
-
-.hero-txt {
-  color: #ebcb8b;
-  font-size: 48px;
-  font-weight: bolder;
-}
-
-#subtext {
-  color: #e5e7eb;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.signup-button {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 64px;
-  margin-top: 10px;
-}
-
-.img-placeholder {
-  color: #f9faf8;
-  border: none;
-  background-color: grey;
-  display: flex;
-  height: 200px;
-  width: 350px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  margin-bottom: 64px;
-  margin-right: 64px;
 }
 
 .rps-section {
@@ -229,51 +174,4 @@ li {
 button#reset {
   padding: 12px 150px;
   font-size: 20px;
-}
-
-.quote-sig {
-  color: black;
-  padding: 8px;
-  margin-left: auto;
-  margin-right: 128px;
-  margin-bottom: 64px;
-}
-
-.sign-up-section {
-  background-color: white;
-}
-
-.signup-content {
-  color: #f9faf8;
-  background: #3882f6;
-  border: 1px;
-  border-radius: 8px;
-  margin: 64px 150px;
-  display: flex;
-}
-
-.su-text {
-  padding: 16px 32px 16px 32px;
-}
-
-button.signup2 {
-  border: 1px #f9faf8;
-  border-color: #f9faf8;
-  border: solid;
-}
-
-.sus-signup-button {
-  margin-top: auto;
-  margin-bottom: auto;
-  flex-shrink: 0;
-  margin-left: auto;
-  margin-right: 64px;
-}
-
-.footer {
-  color: #f9faf8;
-  background: #1f2937;
-  padding: 20px 0px;
-  display: flex;
-  justify-content: space-around;
 }
