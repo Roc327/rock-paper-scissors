@@ -3,8 +3,64 @@
   <head>
     <meta charset="utf-8" />
     <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/rps.js"></script>
   </head>
   <body>
-    <script src="js/rps.js"></script>
+    <div id="content">
+      <div class="head-section">
+        <div class="header">
+          <div class="logo-txt">
+            <p id="logo-txt">Rock, Paper, Scissors</p>
+          </div>
+        </div>
+        <div class="head-content">
+          <div class="head-txt">
+            Play a few rounds against a computer opponent!
+          </div>
+        </div>
+      </div>
+      <div class="rps-section">
+        <div class="rps-header">
+          <p>CPU and Player scores, first to 5 wins!</p>
+        </div>
+        <div class="rps-content">
+          <div class="rps-unit">
+            <div class="rps-boxes">
+              <div class="rps-scores">
+                CPU:
+                <div id="cpu-score">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="rps-unit">
+            <div class="rps-boxes">
+              <div class="rps-scores">
+                Player:
+                <div class="player-score">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rps-footer">
+          <div class="rps-winner"></div>
+        </div>
+      </div>
+      <div class="control-section">
+        <div class="control-txt">
+          Choose an option below to play. You are playing against the CPU. You
+          will play until either you or the CPU reaches 5 points.<br />Press
+          rest to clear game and play again.
+        </div>
+        <div class="button-block">
+          <button id="rock">Rock</button>
+          <button id="paper">Paper</button>
+          <button id="scissors">Scissors</button>
+        </div>
+        <div class="reset-block">
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

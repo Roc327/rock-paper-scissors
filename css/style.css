@@ -1,0 +1,279 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./fonts/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./fonts/Comfortaa-Bold.ttf");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./fonts/Comfortaa-SemiBold.ttf");
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Comfortaa;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  color: #f9faf8;
+  border: 1px #3882f6;
+  border-radius: 8px;
+  background: #1f2937;
+  padding: 8px 16px;
+  font-family: Comfortaa;
+  font-size: 15px;
+}
+
+.head-section {
+  background: #1f2937;
+}
+
+.logo-txt {
+  font-size: 48px;
+  font-family: Comfortaa, Courier, Cambia;
+  font-weight: bold;
+  color: #d8dee9;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#logo-txt {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.head-txt {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #88c0d0;
+  margin-top: auto;
+  margin-bottom: 40px;
+}
+
+li {
+  color: #e5e7eb;
+  font-style: 18px;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-right: 64px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.head-content {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.htxt-only {
+  margin-left: 64px;
+  /* width: 400px; */
+}
+
+.hero-txt {
+  color: #ebcb8b;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.signup-button {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 64px;
+  margin-top: 10px;
+}
+
+.img-placeholder {
+  color: #f9faf8;
+  border: none;
+  background-color: grey;
+  display: flex;
+  height: 200px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 64px;
+  margin-right: 64px;
+}
+
+.rps-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.rps-header {
+  font-family: Comfortaa, Cambia, Courier;
+  color: #4c566a;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.rps-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 64px;
+  margin-right: 64px;
+  gap: 150px;
+  margin-bottom: 64px;
+}
+
+.rps-boxes {
+  border: 1px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #3882f6;
+  background-color: #e5e7eb;
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.rps-scores {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #978e48;
+  font-size: 32px;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rps-unit {
+  display: flex;
+  flex-direction: column;
+}
+
+.rps-footer {
+  min-height: 120px;
+}
+
+.rps-winner {
+  font-family: Comfortaa, Cambia, Courier;
+  font-weight: bold;
+  color: #bf616a;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.control-section {
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-txt {
+  color: #1f2937;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 50px 30px 50px;
+}
+
+.button-block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.reset-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 32px;
+}
+
+button#reset {
+  padding: 12px 150px;
+  font-size: 20px;
+}
+
+.quote-sig {
+  color: black;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: 128px;
+  margin-bottom: 64px;
+}
+
+.sign-up-section {
+  background-color: white;
+}
+
+.signup-content {
+  color: #f9faf8;
+  background: #3882f6;
+  border: 1px;
+  border-radius: 8px;
+  margin: 64px 150px;
+  display: flex;
+}
+
+.su-text {
+  padding: 16px 32px 16px 32px;
+}
+
+button.signup2 {
+  border: 1px #f9faf8;
+  border-color: #f9faf8;
+  border: solid;
+}
+
+.sus-signup-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: 64px;
+}
+
+.footer {
+  color: #f9faf8;
+  background: #1f2937;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
