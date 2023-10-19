@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/rps.js"></script>
+    <script src="./js/rps.js" defer></script>
   </head>
   <body>
     <div id="content">
@@ -29,7 +29,7 @@
             <div class="rps-boxes">
               <div class="rps-scores">
                 CPU:
-                <div id="cpu-score">0</div>
+                <div id="cpu-score"></div>
               </div>
             </div>
           </div>
@@ -37,13 +37,13 @@
             <div class="rps-boxes">
               <div class="rps-scores">
                 Player:
-                <div class="player-score">0</div>
+                <div id="player-score"></div>
               </div>
             </div>
           </div>
         </div>
         <div class="rps-footer">
-          <div class="rps-winner"></div>
+          <div id="rps-winner"></div>
         </div>
       </div>
       <div class="control-section">
@@ -53,12 +53,12 @@
           rest to clear game and play again.
         </div>
         <div class="button-block">
-          <button id="rock">Rock</button>
-          <button id="paper">Paper</button>
-          <button id="scissors">Scissors</button>
+          <button id="rock" onClick="buttonClick(this.id)">Rock</button>
+          <button id="paper" onClick="buttonClick(this.id)">Paper</button>
+          <button id="scissors" onClick="buttonClick(this.id)">Scissors</button>
         </div>
         <div class="reset-block">
-          <button id="reset">Reset</button>
+          <button id="reset" onClick="resetGame()">Reset</button>
         </div>
       </div>
     </div>

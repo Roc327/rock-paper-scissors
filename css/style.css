@@ -135,7 +135,7 @@ button {
   min-height: 120px;
 }
 
-.rps-winner {
+#rps-winner {
   font-family: Comfortaa, Cambia, Courier;
   font-weight: bold;
   color: #bf616a;
