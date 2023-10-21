@@ -10,17 +10,17 @@ body {
 
 @font-face {
   font-family: "Comfortaa";
-  src: url("./fonts/Comfortaa-Regular.ttf");
+  src: local("Comfortaa-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa Bolder";
   src: url("./fonts/Comfortaa-Bold.ttf");
   font-weight: bolder;
 }
 
 @font-face {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa Bold";
   src: url("./fonts/Comfortaa-SemiBold.ttf");
   font-weight: bold;
 }
